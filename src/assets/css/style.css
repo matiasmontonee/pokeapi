@@ -1,0 +1,44 @@
+.bg-black-500 { background-color: black; }
+.bg-red-500 { background-color: red; }
+.bg-blue-500 { background-color: blue; }
+.bg-purple-500 { background-color: purple; }
+.bg-orange-500 { background-color: orange; }
+.bg-green-500 { background-color: green; }
+.bg-yellow-500 { background-color: yellow; }
+.bg-pink-500 { background-color: pink; }
+.bg-grey-500 { background-color: grey; }
+.bg-brown-500 { background-color: brown; }
+.bg-turquoise-500 { background-color: turquoise; }
+.bg-darkgrey-500 { background-color: darkgrey; }
+.bg-blueviolet-500 { background-color: blueviolet; }
+.bg-orchid-500 { background-color: orchid; }
+.bg-teal-500 { background-color: teal; }
+.bg-darkblue-500 { background-color: darkblue; }
+.bg-darkgreen-500 { background-color: darkgreen; }
+.bg-limegreen-500 { background-color: limegreen; }
+.bg-lightgray-500 { background-color: lightgray; }
+
+.text-darkgreen-500 { color: darkgreen; }
+.text-yellow-500 { color: yellow; }
+.text-teal-500 { color: teal; }
+.text-orange-500 { color: orange; }
+.text-brown-500 { color: brown; }
+.text-lightgray-500 { color: lightgray; }
+.text-green-500 { color: green; }
+.text-purple-500 { color: purple; }
+.text-grey-500 { color: grey; }
+.text-red-500 { color: red; }
+.text-blue-500 { color: blue; }
+.text-limegreen-500 { color: limegreen; }
+.text-darkblue-500 { color: darkblue; }
+.text-orchid-500 { color: orchid; }
+.text-turquoise-500 { color: turquoise; }
+.text-blueviolet-500 { color: blueviolet; }
+.text-darkgrey-500 { color: darkgrey; }
+.text-pink-500 { color: pink; }
+
+.banner {
+    width: 35%;
+    height: 25%;
+    margin-bottom: 4%;
+}
