@@ -9,7 +9,6 @@ const usePokemonData = () => {
       const endPoint = 'https://pokeapi.co/api/v2/pokemon?limit=400&offset=0';
 
       try {
-        console.log('Fetching data from:', endPoint);
         const response = await fetch(endPoint);
 
         if (!response.ok) {
@@ -22,13 +21,10 @@ const usePokemonData = () => {
           throw new Error('Invalid JSON response');
         }
 
-        console.log('Fetched initial data:', json);
-
         const detailedPokemonData = await Promise.all(
           json.results.map(async (pokemon) => {
             try {
               const detailsResponse = await fetch(pokemon.url);
-              console.log('Fetching details for:', pokemon.url);
 
               if (!detailsResponse.ok) {
                 throw new Error(`HTTP error! status: ${detailsResponse.status}`);
